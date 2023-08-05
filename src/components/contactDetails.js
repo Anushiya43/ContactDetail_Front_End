@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function ContactDetails(props) {
   let contacts = props.contacts;
-  const [flag, setflag] = useState(true);
+  const [flag, setflag] = useState(false);
   const [flagall, setflagall] = useState(false);
   function handleSelect() {
     setflag(!flag);
